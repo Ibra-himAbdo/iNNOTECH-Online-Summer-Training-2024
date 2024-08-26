@@ -43,7 +43,7 @@ public class Program
         #endregion
 
         var app = builder.Build();
-
+        app.UseCors("AllowAllOrigins");
         #region Database Migration
 
         using var scope = app.Services.CreateScope();
