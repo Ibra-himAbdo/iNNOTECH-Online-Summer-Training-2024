@@ -1,0 +1,10 @@
+﻿global using Microsoft.EntityFrameworkCore;
+global using StudentsAffairs.Repository.Data;
+global using StudentsAffairs.Core.Repositroies.Contract;
+global using StudentsAffairs.Repository;
+global using StudentsAffairs.Services.StudentServices;
+global using Microsoft.AspNetCore.Mvc;
+global using StudentsAffairs.Core.Entities;
+global using AutoMapper;
+global using StudentsAffairs.Core.Dtos;
+global using StudentsAffairs.APIs.Helpers;
